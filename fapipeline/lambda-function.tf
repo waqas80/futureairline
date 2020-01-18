@@ -4,5 +4,5 @@ resource "aws_lambda_function" "buildfunction" {
   role          = "${aws_iam_role.lambda_role.arn}"
   memory-size   = 1024
   handler       = "main"
-  runtime       = "java8"
+  runtime       = "go1.x"
 }
