@@ -2,11 +2,11 @@ variable "region" {
     default = "us-east-1"
 }
 variable "aws_access_key" {
-    default = "AKIA2MKWXKIYCSYAJXPI"
+    default = "XXXXXXXXXXXX"
 }
 
 variable "aws_secret_key" {
-    default = "XKS/c4L+rj0dWgDXH9BTRbQxpNvREwY4IxwMeE6B"
+    default = "XXXXXXXXXXXXX"
 }
 
 variable "availability_zones" {
