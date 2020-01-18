@@ -3,10 +3,6 @@ def functionName = '${var.lambda_function}'
 def region = '${var.region}'
 
 node('slaves'){
-    environment {
-        PATH = "/usr/local/bin:$PATH"
-        JAVA_HOME = '/opt/usr/lib/jvm/java-openjdk'
-    }
     stage('Checkout'){
         checkout scm
     }
